@@ -44,3 +44,24 @@ n8nio/n8n
 - Add Docker Compose for easier start/stop.
 - Enable HTTPS if deploying publicly.
 
+--
+---
+
+## 🖼️ Screenshots
+
+Below are example screenshots of my local n8n setup and workflow execution.
+
+### Docker Desktop Container
+
+This shows the n8n container running via Docker Desktop.
+
+![Docker Desktop Container](docker-desktop-container.png)
+
+---
+
+### Random Joke Workflow
+
+This workflow fetches a random joke and emails it via Outlook.
+
+![Random Joke Workflow Email](n8n-joke-workflow-email.png)
+
