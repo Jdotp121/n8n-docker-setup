@@ -65,3 +65,24 @@ This workflow fetches a random joke and emails it via Outlook.
 
 ![Random Joke Workflow Email](n8n-joke-workflow-email.png)
 
+---
+
+## ✨ Random Joke Emailer + Google Sheets Logger
+
+This workflow:
+- Fetches a random joke from the Official Joke API
+- Combines the setup and punchline dynamically
+- Sends the joke via Outlook email
+- Appends the joke and timestamp to a Google Sheet
+
+### Example Expressions
+
+**Date field:**
+```javascript
+{{ new Date().toISOString() }}
+{{ $node["HTTP Request"].json["setup"] + " " + $node["HTTP Request"].json["punchline"] }}
+
+### Workflow Screenshot
+
+![Random Joke Workflow Complete](random-joke-workflow-complete.png)
+
