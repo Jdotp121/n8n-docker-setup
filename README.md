@@ -78,9 +78,11 @@ This workflow:
 ### Example Expressions
 
 **Date field:**
+
 ```javascript
 {{ new Date().toISOString() }}
 {{ $node["HTTP Request"].json["setup"] + " " + $node["HTTP Request"].json["punchline"] }}
+```
 
 ### Workflow Screenshot
 
